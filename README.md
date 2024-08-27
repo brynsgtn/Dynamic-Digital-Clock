@@ -19,7 +19,7 @@ I built this web application as a practice project to enhance my skills in JavaS
 
 ## Deployment
 
-The Dynamic Digital Clock is deployed using GitHub Pages. You can access the live demo [here](https://brynsgtn.github.io/Dynamic-Digital-Clock/).
+The Dynamic Digital Clock is deployed using GitHub Pages. You can access the live demo [here](https://digital-clock-brynsgtn.netlify.app/).
 
 ## Documentation
 
