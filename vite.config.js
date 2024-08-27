@@ -4,7 +4,7 @@ export default defineConfig({
   optimizeDeps: {
     include: ['dayjs', 'micromodal']
   },
-  base: './',
+  base: '',
   build: {
     outDir: 'dist'
   }
