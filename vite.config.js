@@ -5,11 +5,8 @@ export default defineConfig({
   optimizeDeps: {
     include: ['dayjs', 'micromodal']
   },
+  base: '/digitalClock/',
   build: {
-    rollupOptions: {
-      input: {
-        main: 'index.html'
-      }
-    }
+    outDir: 'dist'
   }
 });
