@@ -1,15 +1,26 @@
 {
   "name": "digitalclock",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository contains code for a dynamic digital clock application implemented in JavaScript using the Day.js library for time zone handling.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dayjs": "^1.11.11",
     "micromodal": "^0.4.10"
-  }
+  },
+  "devDependencies": {
+    "@types/micromodal": "^0.3.5",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  },
+  "keywords": []
 }

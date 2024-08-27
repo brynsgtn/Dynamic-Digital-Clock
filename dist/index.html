@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-Bm4ML6IM.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32-CG5rGt-N.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16-yvKU59AD.png">
+    <link rel="manifest" href="/assets/site-BQ312kVt.webmanifest">
+    <title>Digital Clock</title>
+  <script type="module" crossorigin src="/assets/index-DGYEyPf8.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DNzUrMRD.css">
+</head>
+<body>
+    <!-- Content -->
+    <div class="body-container" id="body-container">
+        <div class="clock-container" id="clock-container">
+            <div class="mode">
+                <button id="mode-btn"><svg id="mode-svg" stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg"><path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8V16Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4V8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16V20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4Z" fill="currentColor"></path></svg></button>
+            </div>
+            <div class="time-zone-container">
+                <p id="time-zone"></p>
+                <button id="time-zone-btn" data-micromodal-trigger="modal-1"><svg id="modal-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg"><path d="M7,17.013l4.413-0.015l9.632-9.54c0.378-0.378,0.586-0.88,0.586-1.414s-0.208-1.036-0.586-1.414l-1.586-1.586	c-0.756-0.756-2.075-0.752-2.825-0.003L7,12.583V17.013z M18.045,4.458l1.589,1.583l-1.597,1.582l-1.586-1.585L18.045,4.458z M9,13.417l6.03-5.973l1.586,1.586l-6.029,5.971L9,15.006V13.417z"></path><path d="M5,21h14c1.103,0,2-0.897,2-2v-8.668l-2,2V19H8.158c-0.026,0-0.053,0.01-0.079,0.01c-0.033,0-0.066-0.009-0.1-0.01H5V5	h6.847l2-2H5C3.897,3,3,3.897,3,5v14C3,20.103,3.897,21,5,21z"></path></svg></button>
+            </div>
+            <div class="time-container">
+                <div id="hour"></div>
+                <div id="colon">:</div>
+                <div id="minute"></div>
+                <div id="colon">:</div>
+                <div id="second"></div>
+                <div id="ampm"></div>
+            </div>
+            <div>
+                <p id= "date"></p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title" id="modal__container">
+            <header class="modal__header">
+                <h2 class="modal__title" id="modal-1-title">
+                    Select Time Zone
+                </h2>
+              <button class="modal__close" aria-label="Close modal" data-micromodal-close id="modal__close"></button>
+            </header>
+            <main class="modal__content" id="modal-1-content">
+                <select id="arrayDropdown">
+                    <option value="" disabled selected>Pick a timezone</option>
+                    <option></option>
+                  </select>
+                  <button class="modal__btn modal__btn-primary" id="continue-btn">Apply</button>
+            </main>
+          </div>
+        </div>
+      </div>
+
+</body>
+<!-- Script tag -->
+</html>

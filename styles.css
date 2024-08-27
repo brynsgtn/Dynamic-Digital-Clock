@@ -354,6 +354,7 @@
     #arrayDropdown {
         max-width: 320px;
         font-size: .7rem;
+        
     }
     .modal__content {
         display: flex;

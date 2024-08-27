@@ -1,6 +1,6 @@
 # Dynamic Digital Clock
 
-This repository contains code for a dynamic digital clock application implemented in JavaScript using the Day.js library for time zone handling.
+This repository contains code for a dynamic digital clock application implemented in JavaScript and then converted to TypeScript using the Day.js library for time zone handling.
 
 ## Overview
 
@@ -15,7 +15,7 @@ The Dynamic Digital Clock is a web-based application that displays the current t
 
 ## Purpose
 
-I built this web application as a practice project to enhance my skills in JavaScript development and to gain experience with npm package management. This project allowed me to explore various libraries and tools, such as Day.js, MicroModal, and Browserify, and to learn how to integrate them into a real-world application.
+I built this web application as a practice project to enhance my skills in JavaScript and TypeScript development and to gain experience with npm package management. This project allowed me to explore various libraries and tools, such as Day.js, MicroModal, and Vite, and to learn how to integrate them into a real-world application.
 
 ## Deployment
 
@@ -26,6 +26,9 @@ The Dynamic Digital Clock is deployed using GitHub Pages. You can access the liv
 - [Day.js Documentation](https://day.js.org/docs/en/getting-started/installation)
 - [MicroModal Documentation](https://micromodal.now.sh/)
 - [npm Documentation](https://docs.npmjs.com/)
+- [JavaScript Documentation](https://www.w3schools.com/js/default.asp)
+- [TypeScript Documentation](https://www.typescriptlang.org/)
+- [Vite Build Tool Documentation](https://vitejs.dev/guide/static-deploy.html)
 
 ## Usage
 
@@ -34,6 +37,6 @@ To use the Dynamic Digital Clock application:
 1. Clone or download the repository to your local machine.
 2. Install Node.js and npm if you haven't already.
 3. Run `npm install` to install the required dependencies.
-4. Use Browserify to bundle the JavaScript code:
+4. Use Vite to start a local development server:
    ```sh
-   browserify main.js -o bundle.js
+   npm run dev
