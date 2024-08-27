@@ -1,5 +1,5 @@
 /* Script */
-import dayjs from 'dayjs';
+import dayjs from '/node_modules/dayjs/esm/dayjs.js';
 import utc from 'dayjs/plugin/utc';
 import timezone from 'dayjs/plugin/timezone';
 import MicroModal from 'micromodal';
